@@ -6,6 +6,8 @@ serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('', 4000))
 serverSocket.listen(1)
 
+#commit test 
+
 #main loop
 while True:
     #Establish the connection
