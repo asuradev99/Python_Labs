@@ -30,6 +30,7 @@ while True:
         f.write("\n The browser you are using is " + str(message.split() [21]))
         f.seek(0)
         outputdata = f.read()
+        
         #Send one HTTP header line 
         hdr = "HTTP/1.1 200 OK\r\n"
         connectionSocket.send(hdr.encode())
